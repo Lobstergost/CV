@@ -4,22 +4,28 @@ body {
     background-color: aliceblue; /* Цвет фона веб-страницы */
     color: #333; /* Цвет основного текста */
 }
-h3 {
-    color: #333333; /* Цвет заголовка */
-    font-size: 24pt; /* Размер шрифта в пунктах */
-    font-family: Georgia, Times, serif; /* Семейство шрифтов */
-    font-weight: normal; /* Нормальное начертание текста  */
+.h3{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
+h3 {
+    color: #333333;
+    font-size: 24pt;
+    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-weight: normal;
+}
+
 p {
-    color: navy;
-    background-color: blanchedalmond;
-    text-align: justify; /* Выравнивание по ширине */
-    margin-left: 60px; /* Отступ слева в пикселах */
-    margin-right: 10px; /* Отступ справа в пикселах */
-    border-left: 1px solid #999; /* Параметры линии слева */
-    border-bottom: 1px solid #999; /* Параметры линии снизу */
-    padding-left: 10px; /* Отступ от линии слева до текста  */
-    padding-bottom: 10px; /* Отступ от линии снизу до текста  */
+    color: #211F20;
+    background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: justify;
+    margin-left: 60px;
+    margin-right: 10px;
+    border-left: 1px solid #999;
+    border-bottom: 1px solid #999;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
 .bacground  {
     width: 100%;

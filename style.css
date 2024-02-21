@@ -1,16 +1,18 @@
 body {
     font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
     font-size: 11pt; /* Размер основного шрифта в пунктах  */
-    background-color: #f0f0f0; /* Цвет фона веб-страницы */
+    background-color: aliceblue; /* Цвет фона веб-страницы */
     color: #333; /* Цвет основного текста */
 }
-h1 {
-    color: #a52a2a; /* Цвет заголовка */
+h3 {
+    color: #333333; /* Цвет заголовка */
     font-size: 24pt; /* Размер шрифта в пунктах */
     font-family: Georgia, Times, serif; /* Семейство шрифтов */
     font-weight: normal; /* Нормальное начертание текста  */
 }
 p {
+    color: navy;
+    background-color: blanchedalmond;
     text-align: justify; /* Выравнивание по ширине */
     margin-left: 60px; /* Отступ слева в пикселах */
     margin-right: 10px; /* Отступ справа в пикселах */
@@ -19,3 +21,12 @@ p {
     padding-left: 10px; /* Отступ от линии слева до текста  */
     padding-bottom: 10px; /* Отступ от линии снизу до текста  */
 }
+.bacground  {
+    width: 100%;
+    background: radial-gradient(100% 215.42% at 0% 0%, cadetblue 0%, #333333 100%), #211F20;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: -132px;
+    padding-top: 185px;
+}
+

@@ -1,3 +1,8 @@
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 header {
     box-sizing: border-box;
     padding: 40px;
@@ -11,10 +16,10 @@ header {
 }
 body {
     margin: 0 auto;
-    font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
-    font-size: 11pt; /* Размер основного шрифта в пунктах  */
-    background-color: aliceblue; /* Цвет фона веб-страницы */
-    color: #333; /* Цвет основного текста */
+    font-family: Anta,  sans-serif;
+    font-size: 11pt;
+    background-color: aliceblue;
+    color: #333;
 }
 .h3{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
@@ -22,7 +27,7 @@ body {
 h3 {
     color: #333333;
     font-size: 24pt;
-    font-family: Georgia, Times, serif;
+    font-family: Anta, Times, serif;
     font-weight: normal;
 }
 img{
@@ -31,20 +36,20 @@ img{
 h1 {
     color: #333333;
     font-size: 42pt;
-    font-family: "Brush Script MT", Times, serif;
+    font-family: Anta, Times, serif;
     font-weight: normal;
 }
 a{
     font-size: 32pt;
     line-height: 1.2;
-    font-family: "Brush Script MT", Times, serif;
+    font-family: Anta, Times, serif;
     text-decoration: none;
 }
 p {
     color: #211F20;
-    background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;
-    background-size: cover;
-    background-repeat: no-repeat;
+    /*background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;*/
+    /*background-size: cover;*/
+    /*background-repeat: no-repeat;*/
     text-align: justify;
     margin-left: 60px;
     margin-right: 10px;
@@ -60,5 +65,135 @@ p {
     background-repeat: no-repeat;
     margin-top: -132px;
     padding-top: 185px;
+}
+@media (min-width: 1400px){
+    header {
+        box-sizing: border-box;
+        padding: 40px;
+        border-color: #1c4444;
+        border-width: 10px;
+        border-style: solid;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: center;
+
+    }
+    body {
+        margin: 0 auto;
+        font-family: Arial, Verdana,  sans-serif;
+        font-size: 11pt;
+        background-color: aliceblue;
+        color: #333;
+    }
+    .h3{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    h3 {
+        color: #333333;
+        font-size: 24pt;
+        font-family: Georgia, Times, serif;
+        font-weight: normal;
+    }
+    img{
+        border-radius: 50px;
+    }
+    h1 {
+        color: #333333;
+        font-size: 42pt;
+        font-family: "Brush Script MT", Times, serif;
+        font-weight: normal;
+    }
+    a{
+        font-size: 32pt;
+        line-height: 1.2;
+        font-family: "Brush Script MT", Times, serif;
+        text-decoration: none;
+    }
+    p {
+        color: #211F20;
+        /*background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;*/
+        /*background-size: cover;*/
+        /*background-repeat: no-repeat;*/
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 10px;
+        border-left: 1px solid #999;
+        border-bottom: 1px solid #999;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .bacground  {
+        width: 100%;
+        background: radial-gradient(100% 215.42% at 0% 0%, cadetblue 0%, #333333 100%), #211F20;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -132px;
+        padding-top: 185px;
+    }
+}
+@media (min-width: 990px) {
+    header {
+        box-sizing: border-box;
+        padding: 40px;
+        border-color: #1c4444;
+        border-width: 10px;
+        border-style: solid;
+        display: flex;
+        justify-content: flex-end;
+        justify-content: center;
+
+    }
+    body {
+        margin: 0 auto;
+        font-family: Arial, Verdana,  sans-serif;
+        font-size: 11pt;
+        background-color: aliceblue;
+        color: #333;
+    }
+    .h3{
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+    h3 {
+        color: #333333;
+        font-size: 24pt;
+        font-family: Georgia, Times, serif;
+        font-weight: normal;
+    }
+    img{
+        border-radius: 50px;
+    }
+    h1 {
+        color: #333333;
+        font-size: 42pt;
+        font-family: "Brush Script MT", Times, serif;
+        font-weight: normal;
+    }
+    a{
+        font-size: 32pt;
+        line-height: 1.2;
+        font-family: "Brush Script MT", Times, serif;
+        text-decoration: none;
+    }
+    p {
+        color: #211F20;
+        /*background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;*/
+        /*background-size: cover;*/
+        /*background-repeat: no-repeat;*/
+        text-align: justify;
+        margin-left: 60px;
+        margin-right: 10px;
+        border-left: 1px solid #999;
+        border-bottom: 1px solid #999;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+    .bacground  {
+        width: 100%;
+        background: radial-gradient(100% 215.42% at 0% 0%, cadetblue 0%, #333333 100%), #211F20;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -132px;
+        padding-top: 185px;
+    }
 }
 

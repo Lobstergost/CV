@@ -13,7 +13,12 @@ h3 {
     font-family: Georgia, Times, serif; /* Семейство шрифтов */
     font-weight: normal;
 }
-
+h1 {
+    color: #333333;
+    font-size: 42pt;
+    font-family: "Brush Script MT", Times, serif; /* Семейство шрифтов */
+    font-weight: normal;
+}
 p {
     color: #211F20;
     background: radial-gradient(100% 215.42% at 0% 0%, #b4e6e8 0%, #1c4444 100%), #211F20;

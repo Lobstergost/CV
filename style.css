@@ -1,4 +1,11 @@
+header {
+    padding: 40px;
+    border-color: #1c4444;
+    border-width: 10px;
+    border-style: solid;
+}
 body {
+    margin: 40px;
     font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
     font-size: 11pt; /* Размер основного шрифта в пунктах  */
     background-color: aliceblue; /* Цвет фона веб-страницы */
@@ -10,14 +17,23 @@ body {
 h3 {
     color: #333333;
     font-size: 24pt;
-    font-family: Georgia, Times, serif; /* Семейство шрифтов */
+    font-family: Georgia, Times, serif;
     font-weight: normal;
+}
+img{
+    border-radius: 50px;
 }
 h1 {
     color: #333333;
     font-size: 42pt;
-    font-family: "Brush Script MT", Times, serif; /* Семейство шрифтов */
+    font-family: "Brush Script MT", Times, serif;
     font-weight: normal;
+}
+a{
+    font-size: 32pt;
+    line-height: 1.2;
+    font-family: "Brush Script MT", Times, serif;
+    text-decoration: none;
 }
 p {
     color: #211F20;

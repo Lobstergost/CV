@@ -1,11 +1,16 @@
 header {
+    box-sizing: border-box;
     padding: 40px;
     border-color: #1c4444;
     border-width: 10px;
     border-style: solid;
+    display: flex;
+    justify-content: flex-end;
+    justify-content: center;
+
 }
 body {
-    margin: 40px;
+    margin: 0 auto;
     font-family: Arial, Verdana,  sans-serif; /* Семейство шрифтов */
     font-size: 11pt; /* Размер основного шрифта в пунктах  */
     background-color: aliceblue; /* Цвет фона веб-страницы */

@@ -3,11 +3,26 @@
 <head>
     <title>Ivan Minau | cv</title>
     <link rel="stylesheet" href="style.css">
-    </head>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $("#menu").on("click","a", function (event) {
+                event.preventDefault();
+                var id  = $(this).attr('href'),
+                    top = $(id).offset().top;
+                $('body,html').animate({scrollTop: top}, 1500);
+            });
+        });
+    </script>
+</head>
 <body class="bacground">
 <header>
+    <img src="photo.jpg"
+    alt="Photo"
+    height="100px"
+    title="Photo Ivan Minau">
     <h1 id="ivan-minau" class="h3">Ivan Minau</h1>
-    <nav>
+    <nav id="menu">
         <ul style="list-style: none">
             <li><a href="#my-contact-info">My Contact Info</a></li>
             <li><a href="#about-me">About Me</a></li>

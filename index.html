@@ -10,16 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $("#menu").on("click","a", function (event) {
-                event.preventDefault();
-                var id  = $(this).attr('href'),
-                    top = $(id).offset().top;
-                $('body,html').animate({scrollTop: top}, 1500);
-            });
-        });
-    </script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body class="bacground">
 <header>
@@ -28,7 +19,7 @@
     height="100px"
     title="Photo Ivan Minau"
     >
-    <h1 id="ivan-minau" class="h3">Ivan Minau</h1>
+    <h1 id="ivan-minau" >Ivan Minau</h1>
     <nav id="menu">
         <ul style="list-style: none">
             <li><a href="#my-contact-info">My Contact Info</a></li>

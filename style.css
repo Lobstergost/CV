@@ -61,7 +61,7 @@ p {
 }
 .bacground  {
     width: 100%;
-    background: radial-gradient(100% 215.42% at 0% 0%, cadetblue 0%, #333333 100%), #211F20;
+    background: radial-gradient(100% 215.42% at 0% 0%, #f0f8f8 0%, #333333 100%), #211F20;
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: -132px;
